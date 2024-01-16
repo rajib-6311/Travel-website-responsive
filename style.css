@@ -141,6 +141,36 @@ body{
     width: 30px;
 }
 
+/* Last card */
+.last-card{
+    margin: 10px 90px;
+    display: flex;
+    margin-top: 50px;
+
+}
+/*  */
+.last-card-1{
+    width: 30%;
+    border: 1px solid #FF5400;
+    padding: 25px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.last-card-1 input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.last-card-1 button{
+    width: 250px;
+    height: 35px;
+
+}
+.last-card-2-img img{
+    height: 400px;
+    width: 745px;
+}
 
 
 /* Responsive styles */
