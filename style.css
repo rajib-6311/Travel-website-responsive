@@ -2,6 +2,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.p-color{
+    color:rgba(19, 19, 24, 0.70);
+}
+
+.btn-primary{
+    background-color: #FF5400;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
 /* .color-primary{
     color: #FF5400;
 }
@@ -24,7 +36,7 @@ body{
     background-position: center;
     border-radius: 10px;
     height: 500px;
-    margin: 50px 90px;
+    margin: 10px 90px;
 }
 /* Banner text color */
 .h1-text-color{
@@ -36,13 +48,20 @@ body{
 }
 /* banner text center */
 .banner-text{
-    padding-top: 106px;
+    padding-top: 30px;
     text-align: center;
 }
 /* banner input field  */
 .banner-input-field{
     margin-left: 350px;
-    padding: 20px;
+    padding: 10px;
+/* background blear for  */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    /* align-items: flex-start; */
+    gap: 20px;
 }
 
 .input-field{
@@ -51,10 +70,94 @@ body{
     border-radius: 5px;
     border: none;
 }
-.btn-primary{
-    background-color: #FF5400;
-    height: 35px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
+
+
+/* Main section part */
+.popular-tour{
+    margin: 10px 90px;
+    display: flex;
+    margin-top: 50px;
 }
+/*  */
+.popular-tour-text{
+    width: 50%;
+}
+.popular-tour-img{
+    padding-left: 40px;
+    
+}
+.popular-tour-img img{
+    height: 500px;
+    width: 550px;
+}
+
+/* Choose part in project */
+.choose-part{
+    margin-top: 50px;
+}
+/*  */
+.choose-text{
+    text-align: center;
+}
+/* card part  */
+.card-section{
+    margin: 10px 90px;    
+    display: flex;   
+    margin-top: 50px;
+}
+/*  */
+.first-card{
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 20px 30px;
+    border-radius: 10px;
+   
+}
+.second-cord{
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    padding: 20px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.third-card-work{
+    width: 41.5%;
+    margin: 10px 90px;
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
+/*  */
+.third-cord{
+    
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.icon-size{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/* Responsive styles */
+
+/* Responsive for small device 600px and down */
+   @media screen and (max-with: 600px) {
+    .banner-img{
+       padding: 20px;
+    }
+   .banner-input-field{
+    flex-direction: column;
+
+   }
+
+   }
+
+
+
+
+/* Responsive for laptops and desktops 992px and up */
