@@ -1,3 +1,60 @@
-h1{
-    color: red;
+/* common sherd style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* .color-primary{
+    color: #FF5400;
+}
+
+/* Header part */
+/*Nav ber works */
+/* .nav-logo{
+    display: flex;
+    text-align: center;
+}
+.nav-logo img{
+    height: 30px;
+    width: 30px;
+} */ 
+
+/* Header banner section */
+.banner-img{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 500px;
+    margin: 50px 90px;
+}
+/* Banner text color */
+.h1-text-color{
+    color: #fff;
+    font-size: 40px;
+}
+.p-text-color{
+    color: #fff;
+}
+/* banner text center */
+.banner-text{
+    padding-top: 106px;
+    text-align: center;
+}
+/* banner input field  */
+.banner-input-field{
+    margin-left: 350px;
+    padding: 20px;
+}
+
+.input-field{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary{
+    background-color: #FF5400;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
 }
