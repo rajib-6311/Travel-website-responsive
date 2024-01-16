@@ -87,7 +87,7 @@ body{
     
 }
 .popular-tour-img img{
-    height: 500px;
+    height: 400px;
     width: 550px;
 }
 
@@ -177,7 +177,7 @@ body{
 .footer-all{
     background-color: rgba(19, 19, 24, 0.05);
     margin-top: 50px;
-    height: 250px;
+    height: 300px;
 }
 .footer{
     display: flex;  
@@ -187,6 +187,10 @@ body{
     height: 30px;
     margin-left: 500px;
     margin-right: 20px;
+    padding-top: 40px;
+}
+.footer-name{
+    padding-top: 22px;
 }
 .color-primary{
     color: #FF5400;
@@ -206,10 +210,11 @@ body{
 }
 .footer-img-1 img{
     margin-right: 30px;
+    
 }
 .copy-right{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0px 30px;
 }
 
 
