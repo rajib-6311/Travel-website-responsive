@@ -22,12 +22,12 @@ body{
     background-size: cover;
     /* background-position: center; */
     border-radius: 10px;
-    height: 500px;   
+    
+    height: 500px;
+    
     
 }
-/* .banner-img img{
-    width: 100%;
-} */
+
 /* Banner text color */
 .h1-text-color{
     color: #fff;
@@ -75,6 +75,7 @@ body{
     width: 50%;
     padding-left: 70px;
     
+    
 }
 .popular-tour-img img{
     height: 400px;
@@ -99,26 +100,7 @@ body{
     margin-top: 20px;
 }
 
-/* .row img{
-    width: 50%;
-}
-.row{
-    height: 400px;
-    
-    display: flex;
-    gap: 25px;
-    margin: 20px;
-} 
 
-.row-align{
-    display: flex;
-    
-}
-.row-align img{
-    height: 350px;
-    width: 400px;
-    padding-right: 25px;
-} */
 /* Destination end */
 
 
@@ -201,7 +183,7 @@ body{
 }
 .last-card-2-img img{
     height: 450px;
-    width: 745px;
+    width: 600px;
 }
 
 /* footer section */
@@ -217,7 +199,7 @@ body{
 .footer-img img{
     width: 30px;
     height: 30px;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-right: 20px;
     padding-top: 40px;
 }
@@ -236,9 +218,7 @@ body{
 
 .footer-logo{
     display: flex;
-    padding-left: 600px;
-  
-   
+    padding-left: 450px;
 }
 .footer-img-1 img{
     margin-right: 30px;
@@ -256,7 +236,7 @@ body{
 /* Responsive for small device 600px and down */
    @media screen and (max-width: 590px) {
     body{
-        margin: 5px;  
+        margin: 1px 1px;  
         
     }
      .row-form{   
@@ -292,10 +272,7 @@ body{
     margin-top: 30px;
     padding: 30px;
    }
-   /* .row-2 img{
-    width: 400px;
-    height: 400px;
-   } */
+   
    .row-align{
     flex-direction: column;
     gap: 20px;
@@ -321,11 +298,10 @@ body{
     width: 83%;
     text-align: center;
    }
-   /* .footer-logo{
-    flex-direction: column;
-   } */
+   
    .footer-logo{
     text-align: center;
+    margin-left: 5px;
    }
    .footer-img{
     margin-left: 30px;
@@ -333,9 +309,15 @@ body{
    .footer-img-1 img{
     margin-left: 5px;
    }
-
+   .banner-text{
+    text-align: center;
    }
-
-
-
+   .footer-img img{
+    margin-left: 100px;
+   }
+   .footer-logo{
+    padding-left: 120px;
+   }
+   
+   }
 /* Responsive for laptops and desktops 992px and up */
