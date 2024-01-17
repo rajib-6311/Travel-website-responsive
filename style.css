@@ -90,25 +90,37 @@ body{
     height: 400px;
     width: 550px;
 }
+/* Destination start*/
 
-/* Choose-Destination */
 .Choose-Destination{
     text-align: center;
 }
 
 /* all-img part */
-img{
-   width: 100%;
-   height: 100%;
+.all-img{
+    margin: 10px 90px;
 
 }
-.all-img{
-    margin: 50px 0px;
-
+.row img{
+    width: 50%;
 }
 .row{
     height: 400px;
+    display: flex;
+    gap: 25px;
+    margin: 20px;
+} 
+.img-last{
+    height: 290px;
+    width: 310px;
+   margin-left: 2px;
 }
+.row-2{
+    display: flex;
+    gap: 10px;
+}
+/* Destination end */
+
 
 /* Choose part in project */
 .choose-part{
