@@ -1,12 +1,13 @@
 /* common sherd style */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 10px 90px;
 }
 
 .p-color{
     color:rgba(19, 19, 24, 0.70);
 }
-
+/* button for */
 .btn-primary{
     background-color: #FF5400;
     height: 35px;
@@ -14,30 +15,19 @@ body{
     border-radius: 5px;
     border: none;
 }
-/* .color-primary{
-    color: #FF5400;
-}
-
-/* Header part */
-/*Nav ber works */
-/* .nav-logo{
-    display: flex;
-    text-align: center;
-}
-.nav-logo img{
-    height: 30px;
-    width: 30px;
-} */ 
-
 /* Header banner section */
 .banner-img{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    /* background-position: center; */
     border-radius: 10px;
-    height: 500px;
-    margin: 10px 90px;
+    height: 500px;   
+    
 }
+/* .banner-img img{
+    width: 100%;
+} */
 /* Banner text color */
 .h1-text-color{
     color: #fff;
@@ -52,7 +42,7 @@ body{
     text-align: center;
 }
 /* banner input field  */
-.banner-input-field{
+.row-form{
     margin-left: 350px;
     padding: 10px;
 /* background blear for  */
@@ -60,7 +50,6 @@ body{
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
     padding: 16px;
-    /* align-items: flex-start; */
     gap: 20px;
 }
 
@@ -74,21 +63,22 @@ body{
 
 /* Main section part */
 .popular-tour{
-    margin: 10px 90px;
     display: flex;
     margin-top: 50px;
+    
 }
 /*  */
 .popular-tour-text{
     width: 50%;
 }
 .popular-tour-img{
-    padding-left: 40px;
+    width: 50%;
+    padding-left: 70px;
     
 }
 .popular-tour-img img{
     height: 400px;
-    width: 550px;
+    width: 600px;
 }
 /* Destination start*/
 
@@ -97,10 +87,7 @@ body{
 }
 
 /* all-img part */
-.all-img{
-    margin: 10px 90px;
 
-}
 .row img{
     width: 50%;
 }
@@ -132,7 +119,7 @@ body{
 }
 /* card part  */
 .card-section{
-    margin: 10px 90px;    
+   
     display: flex;   
     margin-top: 50px;
 }
@@ -154,8 +141,8 @@ body{
 
 .third-card-work{
     width: 41.5%;
-    margin: 10px 90px;
-    margin-left: 400px;
+    
+    margin-left: 300px;
     margin-top: 20px;
 
 }
@@ -174,7 +161,7 @@ body{
 
 /* Last card */
 .last-card{
-    margin: 10px 90px;
+    
     display: flex;
     margin-top: 50px;
 
@@ -206,6 +193,7 @@ body{
 
 /* footer section */
 .footer-all{
+    
     background-color: rgba(19, 19, 24, 0.05);
     margin-top: 50px;
     height: 300px;
@@ -253,14 +241,15 @@ body{
 
 /* Responsive for small device 600px and down */
    @media screen and (max-with: 600px) {
-    .banner-img{
-       padding: 20px;
-    }
-   .banner-input-field{
-    flex-direction: column;
-
-   }
-
+       body{
+        margin: 20px 50px;
+       }
+       .banner-img{
+        width: 100%;
+       }
+       .popular-tour{
+        flex-direction: column;
+       }
    }
 
 
